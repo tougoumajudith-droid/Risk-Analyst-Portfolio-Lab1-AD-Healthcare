@@ -15,7 +15,8 @@ Client request:
 My work is to assess risks , produce reports and support decision-making to reduce financial lost. 
 
 Frameworks applied : NIST SP 800-30 , ISO 27001, Quebec Law 25
-The deliverables :
-1 - A risk register 
-2- Law 25 gap checklist 
-3- IAM-risk-assessment 
+
+# The deliverables :
+A risk register 
+Law 25 gap checklist 
+IAM-risk-assessment 
