@@ -16,7 +16,4 @@ My work is to assess risks , produce reports and support decision-making to redu
 
 Frameworks applied : NIST SP 800-30 , ISO 27001, Quebec Law 25
 
-# The deliverables :
-A risk register 
-Law 25 gap checklist 
-IAM-risk-assessment 
+
