@@ -1,5 +1,5 @@
 # Risk-Analyst-Portfolio
-This is my portfolio for open roles such as Risk Analyst or Audit Controls
+This is my portfolio for open roles such as Cybert Risk Analyst or IT Risk Management 
 
 #Lab1-AD-Healthcare
 
