@@ -45,7 +45,7 @@
 |---|---|---|---|---|
 | Confidentiality Incidents | 1 | 0|0 |1 |
 | Security Measures | 5 |1  |0 |4
-| **TOTAL** | **6** | | | |
+| **TOTAL** | **6** |1 | 0 | 5 |
 
 ---
 
@@ -65,7 +65,7 @@
 - Implement an audit system to monitore the  clinic network (SIEM)
 
 ### Short Term - 30 to 90 Days
--Follow the remaining recommandations for Confidentiality Incidents and Security Measures.
+- Follow the remaining recommandations for Confidentiality Incidents and Security Measures.
 
 ### Medium Term - After 180 days 
--Make another risk assessment to evaluation the performance of the current solutions.
+- Make another risk assessment to evaluation the performance of the current solutions.
