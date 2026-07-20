@@ -1,30 +1,10 @@
 
-# This script applies 2 GPOs domain-wide:
-
-# Password Policy (90-day expiry, complexity enabled)
+# This script applies a GPO 
 # Screen Lock Policy (10 minute timeout)
-
-$DomainDN = (Get-ADDomain).DistinguishedName
 
 
 Import-Module GroupPolicy
 Import-Module ActiveDirectory
-
-# PASSWORD POLICY
-Write-Host "Configuring Password Policy        " -ForegroundColor Cyan
-
-try {
-    Set-ADDefaultDomainPasswordPolicy `
-        -Identity (Get-ADDomain).DNSRoot `
-        -MaxPasswordAge "90.00:00:00" `
-        -ComplexityEnabled $true `
-        -ErrorAction Stop
-
-    Write-Host "Success: Password policy updated (90-day expiry, complexity ON)" -ForegroundColor Green
-}
-catch {
-    Write-Error "Failed to update password policy: $_"
-}
 
 # SCREEN LOCK POLICY
 Write-Host "Creating Screen Lock GPO" -ForegroundColor Cyan
