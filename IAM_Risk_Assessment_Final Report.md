@@ -4,10 +4,10 @@
 | Field | Details |
 |---|---|
 | **Organization** | Clinique Santé Montreal |
-| **Environment** | Active Director:mtlclinic.local |
+| **Environment** | Active Directory : mtlclinic.local |
 | **Analyst** | Paule Judith Tougouma  |
 | **Date** | 07/21/2026 |
-| **Frameworks** | ISO 27001, NIST 800-53 , Quebec Law 25 |
+| **Frameworks** | ISO 27001, NIST SP 800-53 , Quebec Law 25 |
 | **Classification** | Confidential |
 
 ---
@@ -205,12 +205,12 @@ Since no specific control are currently in place , immediate action is required 
 
 | Vulnerability ID | Description | Affected Asset | Current Control |
 |---|---|---|---|
-| V-001 |No password expiry policy is enforced .Accounts retain the same credentials indefinitely with no forced rotation |Patients data  | Nothing |
-| V-002 |Due to an absence of accounts lockout threshold , a threat actor could indefinitely log in the system without being detected  | Patients data| Nothing |
-| V-003 |The passwords'complexity rules aren't enforced ,any user can set a weak password like "1234" |Patient data | Nothing|
-| V-004 |The network traffic isn't monitored . Malicious activities that could harm the clinic can't be detected | Patient data | Nothing |
-| V-005 | The maximun age of passwords is set to 90. Employees could potentially change their password from a strong to a weak one |Patient data |Nothing  |
-| V-006 |MFA isn't activated .A stolen or guesse password alone is sufficient to gain access to any user account  |Patient data  |Nothing  |
+| V-001 |No password expiry policy is enforced .Accounts retain the same credentials indefinitely with no forced rotation |Patients' data  | Nothing |
+| V-002 |Due to an absence of accounts lockout threshold , a threat actor could indefinitely log in the system without being detected  | Patients' data| Nothing |
+| V-003 |The passwords'complexity rules aren't enforced ,any user can set a weak password like "1234" |Patients' data | Nothing|
+| V-004 |The network traffic isn't monitored . Malicious activities that could harm the clinic can't be detected | Patients' data | Nothing |
+| V-005 | The maximun age of passwords is set to 90. Employees could potentially change their password from a strong to a weak one |Patients' data |Nothing  |
+| V-006 |MFA isn't activated .A stolen or guesse password alone is sufficient to gain access to any user account  |Patients' data  |Nothing  |
 
 ---
 
