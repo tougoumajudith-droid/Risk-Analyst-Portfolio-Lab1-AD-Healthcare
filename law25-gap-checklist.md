@@ -58,14 +58,21 @@
 | [PARTIAL] | Requirement is partially met |Something exists but is incomplete, unverified, or not fully enforced |
 
 ---
+1- Immediate - 0 to 30 Days
+Designate a Privacy Officer responsible for Quebec Law 25 compliance.
+Review existing security measures protecting personal information.
+Enable Active Directory audit logging to maintain traceability of user activities.
+Define a process to identify, document, and respond to confidentiality incidents.
 
-## Remediation Roadmap(An action plan for the client)
+2- Short Term - 30 to 90 Days
+Implement stronger IAM security controls:
+Multi-Factor Authentication (MFA) for privileged accounts.
+Account lockout policy.
+Password complexity and password expiration requirements.
+Privileged account review and least privilege enforcement.
+Evaluate monitoring solutions (such as SIEM) to improve detection and incident response capabilities.
 
-### Immediate - 0 to 30 Days
-- Implement an audit system to monitore the  clinic network (SIEM)
-
-### Short Term - 30 to 90 Days
-- Follow the remaining recommandations for Confidentiality Incidents and Security Measures.
-
-### Medium Term - After 180 days 
-- Make another risk assessment to evaluation the performance of the current solutions.
+3- Medium Term - 90 to 180 Days
+Deploy a centralized SIEM solution (e.g., Wazuh or Splunk) if feasible.
+Conduct periodic IAM and privacy compliance reviews.
+Perform a follow-up risk assessment to evaluate the effectiveness of implemented controls.
