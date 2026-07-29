@@ -143,16 +143,14 @@ Evidence Reviewed:
 
 Observations:
 
-The GPO review identified the following security configurations:
-
-- Password Policy
+- Password Policy : 
 No password complexity requirements were enforced.
 No password expiration policy was configured.
-- Account Lockout Policy
+- Account Lockout Policy : 
 No account lockout threshold was configured.
-- Audit Policy
+- Audit Policy : 
 Active Directory audit logging was not enabled.
-- Authentication Controls
+- Authentication Controls : 
 No MFA-related security controls were implemented 
 - Screen Lock Policy
   
