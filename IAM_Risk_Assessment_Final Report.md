@@ -143,18 +143,14 @@ Evidence Reviewed:
 
 Observations:
 
-- Password Policy : 
+
 No password complexity requirements were enforced.
 No password expiration policy was configured.
-- Account Lockout Policy : 
 No account lockout threshold was configured.
-- Audit Policy : 
-Active Directory audit logging was not enabled.
-- Authentication Controls : 
+Active Directory audit logging was not enabled
 No MFA-related security controls were implemented 
-- Screen Lock Policy
-  
 A screen lock policy was the only security-related GPO identified
+
 Purpose of Review:
 To assess whether centralized security policies are implemented to protect 
 user identities and access.
