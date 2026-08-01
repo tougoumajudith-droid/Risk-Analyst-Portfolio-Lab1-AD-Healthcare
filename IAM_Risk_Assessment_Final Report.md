@@ -105,7 +105,7 @@ Risk = Likelihood x Impact
 ## 4. Threat Statement
 *(NIST Appendix K - Element 2)*
 Unauthorized individuals, malicious actors, or compromised user accounts may gain access to organizational resources (Patient data ) by exploiting
-weaknesses in identity and access management controls . This could result in unauthorized access to sensitive information, data exposure)
+weaknesses in identity and access management controls . This could result in unauthorized access to sensitive information,or data exposure.
 
 
 
@@ -144,12 +144,12 @@ Evidence Reviewed:
 Observations:
 
 
-No password complexity requirements were enforced.
-No password expiration policy was configured.
-No account lockout threshold was configured.
-Active Directory audit logging was not enabled
-No MFA-related security controls were implemented 
-A screen lock policy was the only security-related GPO identified
+- No password complexity requirements were enforced.
+- No password expiration policy was configured.
+- No account lockout threshold was configured.
+- Active Directory audit logging was not enabled
+- No MFA-related security controls were implemented 
+- A screen lock policy was the only security-related GPO identified
 
 Purpose of Review:
 To assess whether centralized security policies are implemented to protect 
@@ -172,7 +172,7 @@ user identities and access.
 
 
 ### 5.2 Password Policy
-The clinic don't have a password policy regarding the accounts'passwords security requirements .
+The clinic don't have a proper password policy regarding the accounts'passwords security requirements .
 
 
 ### 5.3 Group Policy Objects (GPOs)
@@ -204,7 +204,7 @@ Since no specific control are currently in place , immediate action is required 
 | V-003 |The passwords'complexity rules aren't enforced ,any user can set a weak password like "1234" |Patients' data | Nothing|
 | V-004 |The network traffic isn't monitored . Malicious activities that could harm the clinic can't be detected | Patients' data | Nothing |
 | V-005 | The maximun age of passwords is set to 90. Employees could potentially change their password from a strong to a weak one |Patients' data |Nothing  |
-| V-006 |MFA isn't activated .A stolen or guesse password alone is sufficient to gain access to any user account  |Patients' data  |Nothing  |
+| V-006 |MFA isn't activated .A stolen or guessed password alone is sufficient to gain access to any user account  |Patients' data  |Nothing  |
 
 ---
 
@@ -338,7 +338,7 @@ Since no specific control are currently in place , immediate action is required 
 - Review privileged accounts and apply the principle of least privilege.
 
 ### Medium Term - 90 to 180 Days
-- Deploy a centralized SIEM solution (e.g., Wazuh or Splunk).
+- Deploy a centralized SIEM solution ( Wazuh or Splunk).
 - Conduct periodic Active Directory security reviews.
 - Perform regular IAM compliance assessments against NIST SP 800-53, ISO/IEC 27001, and Quebec Law 25.
 ---
