@@ -13,8 +13,9 @@
 ---
 
 ## 1. Executive Summary
-This report is the Identity and Access Management (IAM) risk assessment conducted on the Active Directory environment of Clinique Santé Montreal (mtlclinic.local). The risk assessment and the deliverables have been done from 07/02/2026 to 07/21/2026. This has been conducted following a warning letter received from the Commission d'accès à l'information (CAI). Six (6) risks have been identified. One of them is rated Critical and five (5) are rated High. Thus, the environment presents significant gaps against NIST SP 800-53, ISO 27001, and Quebec Law 25. An immediate action is required to designate a Privacy Officer, enable audit logging, and establish a breach notification procedure. All the remaining recommendations in this document should also be established.
-
+This report is the Identity and Access Management (IAM) risk assessment conducted from July 2 to July 21, 2026 ,on the Active Directory environment of Clinique Santé Montreal (mtlclinic.local). . This has been conducted following a warning letter received from the Commission d'accès à l'information (CAI).
+Patients'personnal information should have been protected by good security measures.Any risk to clients'personnal information is considered as a violation of the law and lead to legal penalties. 
+Six (6) risks have been identified. One of them is rated Critical. and five (5) are rated High.They represent significant gaps against against NIST SP 800-53, ISO 27001, and Quebec Law 25.Therefore, the clinic could be subject to fines up to CAD $10 million or 2% of worldwide turnover for administrative violations, and up to CAD $25 million or 4% of global revenue for severe penal offences. Three actions are required immediatly : designate a Privacy Officer, enable audit logging, and establish a breach notification procedure. All remaining recommendations in this report must also be implemented to bring the environment into compliance.
 
 
 ---
