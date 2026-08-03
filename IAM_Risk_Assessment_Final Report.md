@@ -101,6 +101,18 @@ Risk = Likelihood x Impact
 | 4 | Major | The impact significantly affects operations, security, compliance, or sensitive information, requiring immediate remediation. |
 | 5 | Critical | The impact results in severe consequences, including major data breaches, regulatory violations, significant financial loss, or critical business disruption. |
 
+## Risk Scoring Methodology
+
+Risks in this assessment were evaluated using a 5x5 risk matrix, where each risk is scored as **Likelihood × Impact**, with both factors rated on a scale of 1 (lowest) to 5 (highest). The resulting score determines the risk's priority level.
+
+| Score Range | Priority |
+|---|---|
+| 1–6   | Low |
+| 7–11  | Medium |
+| 12–15 | High |
+| 16–19 | High |
+| 20–25 | Critical |
+
 ---
 
 ## 4. Threat Statement
