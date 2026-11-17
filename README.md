@@ -1,7 +1,10 @@
 # Risk-Analyst-Portfolio
 This is my portfolio for open roles such as Cybert Risk Analyst or IT Risk Management 
-I did this lab to understand the mandatory regulatory policies for organizations.
-In this lab, I chose the Healthcare industry.
+I completed this lab to understand the regulatory requirements that organizations must comply with.
+
+For this lab, I chose the healthcare industry.
+
+
 
 #Lab1-AD-Healthcare
 
